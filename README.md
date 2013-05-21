@@ -1,4 +1,4 @@
 DistanceMatrixDemo
 ==================
 
-WebService consumer demo
+WebService consumer Demo
