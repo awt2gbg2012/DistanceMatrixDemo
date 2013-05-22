@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using DistanceMatrixDemo.Models;
 
 namespace DistanceMatrixDemo.Controllers
 {
@@ -12,7 +13,9 @@ namespace DistanceMatrixDemo.Controllers
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
 
-            return View();
+            var model = DistanceMatrix.DeserializeDistanceMatrixTest();
+
+            return View(model);
         }
 
         public ActionResult About()

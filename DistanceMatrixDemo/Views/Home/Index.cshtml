@@ -1,5 +1,13 @@
-﻿@{
+﻿@model List<string>
+
+@{
     ViewBag.Title = "Home Page";
+}
+@foreach(var route in Model)
+{
+ <p>
+     @route
+ </p>   
 }
 @section featured {
     <section class="featured">
