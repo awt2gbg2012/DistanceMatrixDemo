@@ -25,6 +25,18 @@ namespace DistanceMatrixDemo.Models
         public String status { get; set; }
     }
 
+    public class DistanceMatrixDistance
+    {
+        public int value { get; set; }
+        public string text { get; set; }
+    }
+
+    public class DistanceMatrixDuration
+    {
+        public int value { get; set; }
+        public string text { get; set; }
+    }
+
     public class DistanceMatrix
     {
     }
