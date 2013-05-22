@@ -13,6 +13,11 @@ namespace DistanceMatrixDemo.Models
         public string status { get; set; }
     }
 
+    public class DistanceMatrixRow
+    {
+        public List<DistanceMatrixElement> elements { get; set; }
+    }
+
     public class DistanceMatrix
     {
     }
