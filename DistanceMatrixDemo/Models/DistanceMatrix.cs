@@ -18,6 +18,13 @@ namespace DistanceMatrixDemo.Models
         public List<DistanceMatrixElement> elements { get; set; }
     }
 
+    public class DistanceMatrixElement
+    {
+        public DistanceMatrixDistance distance { get; set; }
+        public DistanceMatrixDuration duration { get; set; }
+        public String status { get; set; }
+    }
+
     public class DistanceMatrix
     {
     }
